@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{2C7426F2-378A-4C1C-A36B-ED7AF3070C70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListMicroService", "ToDoListMicroService\ToDoListMicroService.csproj", "{B7E24AFF-8F48-47D1-952A-FAFDEEEF89EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationMicroService", "AuthenticationMicroService\AuthenticationMicroService.csproj", "{86613863-D1C6-48B4-AE41-B76B222A715E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{CD5FAF4A-6843-4691-8C8E-7341E1315E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C7426F2-378A-4C1C-A36B-ED7AF3070C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C7426F2-378A-4C1C-A36B-ED7AF3070C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C7426F2-378A-4C1C-A36B-ED7AF3070C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C7426F2-378A-4C1C-A36B-ED7AF3070C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E24AFF-8F48-47D1-952A-FAFDEEEF89EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E24AFF-8F48-47D1-952A-FAFDEEEF89EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E24AFF-8F48-47D1-952A-FAFDEEEF89EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E24AFF-8F48-47D1-952A-FAFDEEEF89EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86613863-D1C6-48B4-AE41-B76B222A715E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86613863-D1C6-48B4-AE41-B76B222A715E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86613863-D1C6-48B4-AE41-B76B222A715E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86613863-D1C6-48B4-AE41-B76B222A715E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5FAF4A-6843-4691-8C8E-7341E1315E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5FAF4A-6843-4691-8C8E-7341E1315E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5FAF4A-6843-4691-8C8E-7341E1315E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5FAF4A-6843-4691-8C8E-7341E1315E2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
